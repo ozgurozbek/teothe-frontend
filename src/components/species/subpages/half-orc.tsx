@@ -23,6 +23,11 @@ export default function HalfOrcContent() {
               alt={"Prone to violence, battleborn humanoid."}
               rootClassName="w-full"
             />
+            <Button href="/species" className="w-full">
+              <span>
+                See All Species <DoubleRightOutlined />
+              </span>
+            </Button>
           </Col>
           <Col
             xs={24}
@@ -53,11 +58,6 @@ export default function HalfOrcContent() {
             />
           </Col>
         </Row>
-        <Button href="/species">
-          <span>
-            See All Species <DoubleRightOutlined />
-          </span>
-        </Button>
       </Card>
     </section>
   );

@@ -23,6 +23,11 @@ export default function ElfContent() {
               alt={"Lady with pointy ears and fine features."}
               rootClassName="w-full"
             />
+            <Button href="/species" className="w-full">
+              <span>
+                See All Species <DoubleRightOutlined />
+              </span>
+            </Button>
           </Col>
           <Col
             xs={24}
@@ -62,11 +67,6 @@ export default function ElfContent() {
             />
           </Col>
         </Row>
-        <Button href="/species">
-          <span>
-            See All Species <DoubleRightOutlined />
-          </span>
-        </Button>
       </Card>
     </section>
   );

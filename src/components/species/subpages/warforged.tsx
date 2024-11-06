@@ -23,6 +23,11 @@ export default function WarforgedContent() {
               alt={"A sentient humanoid with robot-like features."}
               rootClassName="w-full"
             />
+            <Button href="/species" className="w-full">
+              <span>
+                See All Species <DoubleRightOutlined />
+              </span>
+            </Button>
           </Col>
           <Col
             xs={24}
@@ -65,11 +70,6 @@ export default function WarforgedContent() {
             />
           </Col>
         </Row>
-        <Button href="/species">
-          <span>
-            See All Species <DoubleRightOutlined />
-          </span>
-        </Button>
       </Card>
     </section>
   );

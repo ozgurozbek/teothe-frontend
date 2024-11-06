@@ -23,6 +23,11 @@ export default function DrowContent() {
               alt={"A humanoid missing well defined facial features."}
               rootClassName="w-full"
             />
+            <Button href="/species" className="w-full">
+              <span>
+                See All Species <DoubleRightOutlined />
+              </span>
+            </Button>
           </Col>
           <Col xs={24} sm={24} md={12} lg={18} xl={18} xxl={18} className="p-4 h-[60vh] overflow-y-scroll no-scrollbar">
             <SimpleContent
@@ -170,11 +175,6 @@ export default function DrowContent() {
             />
           </Col>
         </Row>
-        <Button href="/species">
-          <span>
-            See All Species <DoubleRightOutlined />
-          </span>
-        </Button>
       </Card>
     </section>
   );

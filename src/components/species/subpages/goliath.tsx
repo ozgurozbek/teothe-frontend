@@ -23,6 +23,11 @@ export default function GoliathContent() {
               alt={"Physically well developed descendants of giant-folk."}
               rootClassName="w-full"
             />
+            <Button href="/species" className="w-full">
+              <span>
+                See All Species <DoubleRightOutlined />
+              </span>
+            </Button>
           </Col>
           <Col
             xs={24}
@@ -97,11 +102,6 @@ export default function GoliathContent() {
             />
           </Col>
         </Row>
-        <Button href="/species">
-          <span>
-            See All Species <DoubleRightOutlined />
-          </span>
-        </Button>
       </Card>
     </section>
   );

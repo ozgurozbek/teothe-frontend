@@ -23,6 +23,11 @@ export default function HalfElfContent() {
               alt={"A blend of human and elf."}
               rootClassName="w-full"
             />
+            <Button href="/species" className="w-full">
+              <span>
+                See All Species <DoubleRightOutlined />
+              </span>
+            </Button>
           </Col>
           <Col
             xs={24}
@@ -56,11 +61,6 @@ export default function HalfElfContent() {
             />
           </Col>
         </Row>
-        <Button href="/species">
-          <span>
-            See All Species <DoubleRightOutlined />
-          </span>
-        </Button>
       </Card>
     </section>
   );
